@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700B09CB235900CA00108220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B09CA235900CA00108220 /* AppDelegate.swift */; };
+		700B09CD235900CA00108220 /* ViewControllerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B09CC235900CA00108220 /* ViewControllerOld.swift */; };
+		700B09D0235900CA00108220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B09CE235900CA00108220 /* Main.storyboard */; };
+		700B09D3235900CA00108220 /* Tepovka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 700B09D1235900CA00108220 /* Tepovka.xcdatamodeld */; };
+		700B09D5235900CD00108220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B09D4235900CD00108220 /* Assets.xcassets */; };
+		700B09D8235900CD00108220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B09D6235900CD00108220 /* LaunchScreen.storyboard */; };
+		700B09E3235900CD00108220 /* TepovkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B09E2235900CD00108220 /* TepovkaTests.swift */; };
+		700B09EE235900CD00108220 /* TepovkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B09ED235900CD00108220 /* TepovkaUITests.swift */; };
+		700B09FC2359010E00108220 /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B09FB2359010E00108220 /* FrameExtractor.swift */; };
+		700BD7EF247DC1440067A081 /* NastaveniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700BD7EE247DC1440067A081 /* NastaveniViewController.swift */; };
+		700BD7F32483F4020067A081 /* HistorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700BD7F22483F4020067A081 /* HistorieModel.swift */; };
+		70187EE0247C3CF00095F25F /* MereniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70187EDF247C3CF00095F25F /* MereniViewController.swift */; };
+		70187EE2247C5D730095F25F /* HistorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70187EE1247C5D730095F25F /* HistorieTableViewController.swift */; };
+		706A6E79248410A200B0CFE1 /* HistorieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A6E78248410A200B0CFE1 /* HistorieTableViewCell.swift */; };
+		70E923FF247C75E400A19788 /* PolozkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E923FE247C75E400A19788 /* PolozkaViewController.swift */; };
+		70FD093C235B9EB8000B51D3 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD093B235B9EB8000B51D3 /* LineChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700B09DF235900CD00108220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700B09BF235900CA00108220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700B09C6235900CA00108220;
+			remoteInfo = Tepovka;
+		};
+		700B09EA235900CD00108220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700B09BF235900CA00108220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700B09C6235900CA00108220;
+			remoteInfo = Tepovka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		700B09C7235900CA00108220 /* Tepovka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tepovka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B09CA235900CA00108220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		700B09CC235900CA00108220 /* ViewControllerOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOld.swift; sourceTree = "<group>"; };
+		700B09CF235900CA00108220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		700B09D2235900CA00108220 /* Tepovka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tepovka.xcdatamodel; sourceTree = "<group>"; };
+		700B09D4235900CD00108220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700B09D7235900CD00108220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		700B09D9235900CD00108220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700B09DE235900CD00108220 /* TepovkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TepovkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B09E2235900CD00108220 /* TepovkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TepovkaTests.swift; sourceTree = "<group>"; };
+		700B09E4235900CD00108220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700B09E9235900CD00108220 /* TepovkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TepovkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B09ED235900CD00108220 /* TepovkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TepovkaUITests.swift; sourceTree = "<group>"; };
+		700B09EF235900CD00108220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700B09FB2359010E00108220 /* FrameExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
+		700B09FF2359FE6200108220 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		700B0A002359FE6200108220 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		700BD7EE247DC1440067A081 /* NastaveniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NastaveniViewController.swift; sourceTree = "<group>"; };
+		700BD7F22483F4020067A081 /* HistorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorieModel.swift; sourceTree = "<group>"; };
+		70187EDF247C3CF00095F25F /* MereniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MereniViewController.swift; sourceTree = "<group>"; };
+		70187EE1247C5D730095F25F /* HistorieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorieTableViewController.swift; sourceTree = "<group>"; };
+		706A6E78248410A200B0CFE1 /* HistorieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorieTableViewCell.swift; sourceTree = "<group>"; };
+		70E923FE247C75E400A19788 /* PolozkaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolozkaViewController.swift; sourceTree = "<group>"; };
+		70FD093B235B9EB8000B51D3 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700B09C4235900CA00108220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B09DB235900CD00108220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B09E6235900CD00108220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700B09BE235900CA00108220 = {
+			isa = PBXGroup;
+			children = (
+				700B09CC235900CA00108220 /* ViewControllerOld.swift */,
+				700B09C9235900CA00108220 /* Tepovka */,
+				700B09E1235900CD00108220 /* TepovkaTests */,
+				700B09EC235900CD00108220 /* TepovkaUITests */,
+				700B09C8235900CA00108220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700B09C8235900CA00108220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700B09C7235900CA00108220 /* Tepovka.app */,
+				700B09DE235900CD00108220 /* TepovkaTests.xctest */,
+				700B09E9235900CD00108220 /* TepovkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700B09C9235900CA00108220 /* Tepovka */ = {
+			isa = PBXGroup;
+			children = (
+				700B09FB2359010E00108220 /* FrameExtractor.swift */,
+				700BD7F22483F4020067A081 /* HistorieModel.swift */,
+				70FD093B235B9EB8000B51D3 /* LineChart.swift */,
+				706A6E78248410A200B0CFE1 /* HistorieTableViewCell.swift */,
+				70187EE1247C5D730095F25F /* HistorieTableViewController.swift */,
+				70E923FE247C75E400A19788 /* PolozkaViewController.swift */,
+				70187EDF247C3CF00095F25F /* MereniViewController.swift */,
+				700BD7EE247DC1440067A081 /* NastaveniViewController.swift */,
+				700B09CA235900CA00108220 /* AppDelegate.swift */,
+				700B09CE235900CA00108220 /* Main.storyboard */,
+				700B09D4235900CD00108220 /* Assets.xcassets */,
+				700B09D6235900CD00108220 /* LaunchScreen.storyboard */,
+				700B09D9235900CD00108220 /* Info.plist */,
+				700B09D1235900CA00108220 /* Tepovka.xcdatamodeld */,
+			);
+			path = Tepovka;
+			sourceTree = "<group>";
+		};
+		700B09E1235900CD00108220 /* TepovkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				700B09E2235900CD00108220 /* TepovkaTests.swift */,
+				700B09E4235900CD00108220 /* Info.plist */,
+			);
+			path = TepovkaTests;
+			sourceTree = "<group>";
+		};
+		700B09EC235900CD00108220 /* TepovkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				700B09ED235900CD00108220 /* TepovkaUITests.swift */,
+				700B09EF235900CD00108220 /* Info.plist */,
+			);
+			path = TepovkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700B09C6235900CA00108220 /* Tepovka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B09F2235900CD00108220 /* Build configuration list for PBXNativeTarget "Tepovka" */;
+			buildPhases = (
+				700B09C3235900CA00108220 /* Sources */,
+				700B09C4235900CA00108220 /* Frameworks */,
+				700B09C5235900CA00108220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tepovka;
+			productName = Tepovka;
+			productReference = 700B09C7235900CA00108220 /* Tepovka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700B09DD235900CD00108220 /* TepovkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B09F5235900CD00108220 /* Build configuration list for PBXNativeTarget "TepovkaTests" */;
+			buildPhases = (
+				700B09DA235900CD00108220 /* Sources */,
+				700B09DB235900CD00108220 /* Frameworks */,
+				700B09DC235900CD00108220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700B09E0235900CD00108220 /* PBXTargetDependency */,
+			);
+			name = TepovkaTests;
+			productName = TepovkaTests;
+			productReference = 700B09DE235900CD00108220 /* TepovkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		700B09E8235900CD00108220 /* TepovkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B09F8235900CD00108220 /* Build configuration list for PBXNativeTarget "TepovkaUITests" */;
+			buildPhases = (
+				700B09E5235900CD00108220 /* Sources */,
+				700B09E6235900CD00108220 /* Frameworks */,
+				700B09E7235900CD00108220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700B09EB235900CD00108220 /* PBXTargetDependency */,
+			);
+			name = TepovkaUITests;
+			productName = TepovkaUITests;
+			productReference = 700B09E9235900CD00108220 /* TepovkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700B09BF235900CA00108220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Kryštof Šara";
+				TargetAttributes = {
+					700B09C6235900CA00108220 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					700B09DD235900CD00108220 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 700B09C6235900CA00108220;
+					};
+					700B09E8235900CD00108220 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 700B09C6235900CA00108220;
+					};
+				};
+			};
+			buildConfigurationList = 700B09C2235900CA00108220 /* Build configuration list for PBXProject "Tepovka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				cs,
+			);
+			mainGroup = 700B09BE235900CA00108220;
+			productRefGroup = 700B09C8235900CA00108220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700B09C6235900CA00108220 /* Tepovka */,
+				700B09DD235900CD00108220 /* TepovkaTests */,
+				700B09E8235900CD00108220 /* TepovkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700B09C5235900CA00108220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B09D8235900CD00108220 /* LaunchScreen.storyboard in Resources */,
+				700B09D5235900CD00108220 /* Assets.xcassets in Resources */,
+				700B09D0235900CA00108220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B09DC235900CD00108220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B09E7235900CD00108220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700B09C3235900CA00108220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B09CD235900CA00108220 /* ViewControllerOld.swift in Sources */,
+				70FD093C235B9EB8000B51D3 /* LineChart.swift in Sources */,
+				700B09D3235900CA00108220 /* Tepovka.xcdatamodeld in Sources */,
+				70E923FF247C75E400A19788 /* PolozkaViewController.swift in Sources */,
+				700BD7F32483F4020067A081 /* HistorieModel.swift in Sources */,
+				70187EE2247C5D730095F25F /* HistorieTableViewController.swift in Sources */,
+				700B09FC2359010E00108220 /* FrameExtractor.swift in Sources */,
+				706A6E79248410A200B0CFE1 /* HistorieTableViewCell.swift in Sources */,
+				70187EE0247C3CF00095F25F /* MereniViewController.swift in Sources */,
+				700BD7EF247DC1440067A081 /* NastaveniViewController.swift in Sources */,
+				700B09CB235900CA00108220 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B09DA235900CD00108220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B09E3235900CD00108220 /* TepovkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B09E5235900CD00108220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B09EE235900CD00108220 /* TepovkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		700B09E0235900CD00108220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700B09C6235900CA00108220 /* Tepovka */;
+			targetProxy = 700B09DF235900CD00108220 /* PBXContainerItemProxy */;
+		};
+		700B09EB235900CD00108220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700B09C6235900CA00108220 /* Tepovka */;
+			targetProxy = 700B09EA235900CD00108220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		700B09CE235900CA00108220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700B09CF235900CA00108220 /* Base */,
+				700B09FF2359FE6200108220 /* cs */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		700B09D6235900CD00108220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700B09D7235900CD00108220 /* Base */,
+				700B0A002359FE6200108220 /* cs */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700B09F0235900CD00108220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		700B09F1235900CD00108220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700B09F3235900CD00108220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76R439X29S;
+				INFOPLIST_FILE = Tepovka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.n0p.Tepovka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		700B09F4235900CD00108220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76R439X29S;
+				INFOPLIST_FILE = Tepovka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.n0p.Tepovka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		700B09F6235900CD00108220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76R439X29S;
+				INFOPLIST_FILE = TepovkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.n0p.TepovkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tepovka.app/Tepovka";
+			};
+			name = Debug;
+		};
+		700B09F7235900CD00108220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76R439X29S;
+				INFOPLIST_FILE = TepovkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.n0p.TepovkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tepovka.app/Tepovka";
+			};
+			name = Release;
+		};
+		700B09F9235900CD00108220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76R439X29S;
+				INFOPLIST_FILE = TepovkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.n0p.TepovkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tepovka;
+			};
+			name = Debug;
+		};
+		700B09FA235900CD00108220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76R439X29S;
+				INFOPLIST_FILE = TepovkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.n0p.TepovkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tepovka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700B09C2235900CA00108220 /* Build configuration list for PBXProject "Tepovka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B09F0235900CD00108220 /* Debug */,
+				700B09F1235900CD00108220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B09F2235900CD00108220 /* Build configuration list for PBXNativeTarget "Tepovka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B09F3235900CD00108220 /* Debug */,
+				700B09F4235900CD00108220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B09F5235900CD00108220 /* Build configuration list for PBXNativeTarget "TepovkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B09F6235900CD00108220 /* Debug */,
+				700B09F7235900CD00108220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B09F8235900CD00108220 /* Build configuration list for PBXNativeTarget "TepovkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B09F9235900CD00108220 /* Debug */,
+				700B09FA235900CD00108220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		700B09D1235900CA00108220 /* Tepovka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				700B09D2235900CA00108220 /* Tepovka.xcdatamodel */,
+			);
+			currentVersion = 700B09D2235900CA00108220 /* Tepovka.xcdatamodel */;
+			path = Tepovka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 700B09BF235900CA00108220 /* Project object */;
+}
